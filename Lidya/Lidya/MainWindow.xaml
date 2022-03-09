@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lidya"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Initialized="Window_Initialized">
     <Grid>
+        <ComboBox x:Name="AvailableProgramsCombo" HorizontalAlignment="Left" Margin="125,47,0,0" VerticalAlignment="Top" Width="515"/>
+        <Button x:Name="ExecuteActionButton" Content="Execute" HorizontalAlignment="Center" Margin="0,122,0,0" VerticalAlignment="Top" Width="248" Click="ExecuteActionButton_OnClick"/>
 
     </Grid>
 </Window>
